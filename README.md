@@ -15,7 +15,7 @@
 - 支持知识库和非知识库检索两种模式，非知识库检索额外支持连续对话
 
 ## ⚙️ 使用须知
-1. GitHub 源代码不包含数据库。
+1. GitHub 源代码不包含数据库。也不包含开源模型
 2. 爬虫文件不提供校内信息网址和登录账号密码。
 3. `API.py` 文件需自行配置 `volcenginesdkarkruntime` 的 API key，参见豆包大模型官方文档：https://www.volcengine.com/docs/82379/0
 4. Streamlit 与 Torch 存在兼容问题（`RuntimeError: Tried to instantiate class '__path__._path'`），但不影响项目使用。
